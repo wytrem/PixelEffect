@@ -11,7 +11,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class CheckMenu extends Menu
 {
-	private HashSet<Integer> checkedSlots = new HashSet<>();
+	private HashSet<Integer> checkedSlots = new HashSet<Integer>();
 	private int closeSlot;
 	
 	public CheckMenu(InventoryHolder holder, int size, String title)

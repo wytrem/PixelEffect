@@ -88,7 +88,7 @@ public class Particles
 		((CraftPlayer) player).getHandle().playerConnection.sendPacket(packet);
 	}
 	
-	public static final HashMap<String, EnumParticle> nameToParticleMapping = new HashMap<>();
+	public static final HashMap<String, EnumParticle> nameToParticleMapping = new HashMap<String, EnumParticle>();
 	
 	static
 	{

@@ -11,7 +11,7 @@ import org.bukkit.scheduler.BukkitTask;
 
 public class Manager
 {
-	private static final HashMap<UUID, ArrayList<BukkitTask>> runningEffects = new HashMap<>();
+	private static final HashMap<UUID, ArrayList<BukkitTask>> runningEffects = new HashMap<UUID, ArrayList<BukkitTask>>();
 	
 	public static void startEffect(Player player, ParticleEffect effect, long delay)
 	{

@@ -21,7 +21,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class ParticleMenu
 {
-	public static final HashMap<Material, EnumParticle> itemMaterialToParticleMapping = new HashMap<>();
+	public static final HashMap<Material, EnumParticle> itemMaterialToParticleMapping = new HashMap<Material, EnumParticle>();
 
 	static
 	{

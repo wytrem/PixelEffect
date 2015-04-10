@@ -11,7 +11,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 
 public class UiManager implements Listener
 {
-	public static final HashMap<UUID, Menu> openMenus = new HashMap<>();
+	public static final HashMap<UUID, Menu> openMenus = new HashMap<UUID, Menu>();
 	
 	@EventHandler
 	public void onInventoryClick(InventoryClickEvent event)
